@@ -1,0 +1,138 @@
+.opportunitiesSection {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .opportunityGroup {
+    margin-bottom: 40px;
+  }
+  
+  .opportunityGroup h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .opportunityGroup p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .opportunityCards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1 1 calc(25% - 20px); /* Allows 4 cards per row with a gap */
+    max-width: calc(25% - 20px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .card h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  .card .type, .card .participants, .card .daysLeft {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 6px;
+  }
+  
+  .registerButton, .viewCourseButton, .viewProfileButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .registerButton:hover, .viewCourseButton:hover, .viewProfileButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .viewCourseButton, .viewProfileButton {
+    align-self: flex-start;
+    margin-top: 10px;
+  }
+  
+  .opportunityImage {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+    margin-bottom: 10px;
+  }
+  
+  .cvEvaluationImage {
+    width: 100%;
+    max-width: 1400px;
+    margin: 20px auto;
+    display: block;
+  }
+  
+  .communityJoin {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .avatarGroup {
+    width: 1200px;
+    margin-bottom: 20px;
+  }
+  
+  .communityJoin h2 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .communityJoin p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .joinCommunityButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .joinCommunityButton:hover {
+    background-color: #0056b3;
+  }
+  
+  @media (max-width: 768px) {
+    .opportunityCards {
+      flex-direction: column;
+    }
+  
+    .card {
+      max-width: 100%;
+    }
+  }

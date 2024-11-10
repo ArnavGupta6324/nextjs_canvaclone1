@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .logo {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .user-icon {
+    font-size: 24px;
+  }
